@@ -1,0 +1,40 @@
+#navbar {
+    color: darkorange;
+    background-image: url(../images/Textures/prism.png);
+    box-shadow: 3px 3px 12px darkorange;
+    
+}
+
+.navbar-brand {
+    color: darkorange;
+    border-width: 2px;
+    border-color: darkorange;
+    border-radius: 6px;
+    background-image: url(../images/Textures/mosaic.png);
+    background-size: cover;
+    /* background-color: rgb(245, 84, 21); */
+    margin: 3px 4px 3px 4px;
+    box-shadow: 2px 2px 12px rgb(135, 180, 248);
+}
+
+.nav-link {
+    color: darkorange;
+}
+
+body {
+    background-image: url(../images/Textures/escheresque_ste_@2X.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 450px){
+
+}
