@@ -48,6 +48,12 @@ body {
     margin: 20px;
 }
 
+#bioPic {
+    /* transform: rotate(90deg); */
+    background-image: cover;
+
+}
+
 
 
 
