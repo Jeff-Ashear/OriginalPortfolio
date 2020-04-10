@@ -49,9 +49,15 @@ body {
 }
 
 #bioPic {
-    /* transform: rotate(90deg); */
+    display: inline-flex;
     background-image: cover;
-
+    float: left;
+    border-radius: 60%;
+    border-style: solid;
+    border-width: 6px;
+    border-color: rgb(119, 83, 36);
+    box-shadow: 5px 5px black;
+    transform: rotate(90deg);
 }
 
 
