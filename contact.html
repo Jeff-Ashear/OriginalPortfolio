@@ -63,10 +63,30 @@
   </nav>
   <!-- <br><hr><br> -->
 
-  <div class=row>
-    <div class="col-md-4"></div>
-      <div class="bodyDiv">
-        <p>You're on the "contact" page.</p>
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-12 offset-2"></div>
+      <div class="bodyDiv" class="row d-flex">
+       <div id="contactText" class="col-4">
+          <h2>Contact me:</h2>
+          <h3>Jeff Ashear</h3>
+          <h3>Spokane, WA</h3>
+          <h3>303.898.3638</h3>
+          <h3>kinesthesiac@gmail.com</h3>
+       </div>
+       <div id="contactForm" class="col-8">
+         <h2>E-mail me:</h2>
+         <form action="mailto:kinesthesiac@gmail.com" method="post" enctype="text/plain">
+          Name:<br>
+          <input type="text" class="inputField" name="name"><br>
+          Company:<br>
+          <input type="text" class="inputField" name="company"><br>
+          E-mail:<br>
+          <input type="text" class="inputField" name="mail"><br>
+          Message:<br>
+          <input type="text" class="inputField" name="message" size="50"><br><br>
+          
+         </form>
+       </div>
       </div>
     </div>
   </div>

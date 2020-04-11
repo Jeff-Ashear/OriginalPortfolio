@@ -39,17 +39,24 @@ body {
 }
 
 .bodyDiv {
-    border-width: 3px;
+    border-style: solid;
+    border-width: 1px;
     border-radius: 4px;
     border-color: darkorange;
     background-image: url(../images/Textures/topography.png);
     background-repeat: repeat;
     padding: 10px;
-    margin: 20px;
+    margin: 40px;
+    width: 80%;
+    font-size: 1.2rem;
 }
 
 #bioPic {
-    display: inline-flex;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    transform: rotate(90deg);
+    max-width: 70%;
     background-image: cover;
     float: left;
     border-radius: 60%;
@@ -57,7 +64,7 @@ body {
     border-width: 6px;
     border-color: rgb(119, 83, 36);
     box-shadow: 5px 5px black;
-    transform: rotate(90deg);
+
 }
 
 
