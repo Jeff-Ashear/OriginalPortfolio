@@ -1,0 +1,11 @@
+.contentBox {
+    background-color: rgba(255, 255, 255 0.6);
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkorange;
+}
+
+.contentThumb {
+    height: 400px;
+    width: auto;
+}
