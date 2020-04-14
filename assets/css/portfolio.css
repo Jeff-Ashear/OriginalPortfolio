@@ -3,9 +3,11 @@
     border-style: solid;
     border-width: 2px;
     border-color: darkorange;
+    margin: 10px 10px;
+    padding: 10px 10px;
 }
 
 .contentThumb {
     height: 400px;
-    width: auto;
+    width: auto;   
 }
